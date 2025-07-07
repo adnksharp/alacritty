@@ -5,6 +5,7 @@
 ### Ventana
 
 > Opacidad: `0.86`
+> 
 > Dimensiones: `120` x `32`
 
 ### Fuente
@@ -13,8 +14,10 @@
 
 ### Caracteristicas del Cursor
 
-> Estilo: Doble T 
+> Estilo: Doble T
+> 
 > Parpadeo: Cada 450ms si tiene el foco
+>
 > Oculto mientras se escribe
 
 ### Colores
