@@ -1,0 +1,133 @@
+[window]
+dynamic_title = true
+opacity = 0.86
+dimensions = {columns = 120, lines = 32}
+decorations = "None"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[font]
+normal = {family = "Hack Nerd Font Mono", style = "Regular"}
+
+[colors.primary]
+foreground = "#DADEDD"
+background = "#000000"
+bright_foreground = "#111111"
+
+[colors.cursor]
+cursor = "#ecba0f"
+text = "CellForeground"
+
+[colors.search.focused_match]
+foreground = "#ffffff"
+
+[colors.search.matches]
+foreground = "#000000"
+
+[colors.selection]
+background = "#222222"
+text = "CellForeground"
+
+
+[colors.bright]
+black = "#282a30"
+blue = "#a9a1f1"
+cyan = "#34E2E2"
+green = "#a4cf6e"
+magenta = "#fd79a1"
+red = "#ff2b2b"
+white = "#34e2e2"
+yellow = "#ecba0f"
+
+
+[colors.normal]
+black = "#282a30"
+blue = "#a9a1f1"
+cyan = "#32e2e2"
+green = "#a4cf6e"
+magenta = "#fd79a1"
+red = "#ff2b2b"
+white = "#34e2e2"
+yellow = "#ecba0f"
+
+[bell]
+animation = "Linear"
+color = "#ffffff"
+
+[cursor]
+blink_interval = 450
+thickness = 0.34
+unfocused_hollow = true
+vi_mode_style = "None"
+
+[cursor.style]
+blinking = "on"
+shape = "Beam"
+
+[env]
+TERM = "alacritty"
+
+[mouse]
+hide_when_typing = true
+
+[keyboard]
+[[keyboard.bindings]]
+action = "Paste"
+key = "Paste"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "Copy"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "SearchForward"
+key = "F"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "PasteSelection"
+key = "Insert"
+mods = "Shift"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Plus"
+mods = "Control"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Control"
+
+[[mouse.bindings]]
+action = "ExpandSelection"
+mods = "Control"
+mouse = "Right"
+
+[[mouse.bindings]]
+action = "CopySelection"
+mods = "Alt"
+mouse = "Right"
+
+[[mouse.bindings]]
+action = "Paste"
+mods = "None"
+mouse = "Middle"
+
