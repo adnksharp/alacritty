@@ -1,40 +1,26 @@
-# Mi configuración de alacritty
+# My Alacritty config
 
-![2023-07-01-07-29.png](https://i.postimg.cc/kg1cNr1q/2023-07-01-07-29.png)
+![preview](https://i.imgur.com/hgM4us1.png)
 
-### Nombre de las ventanas
-Alacritty
+### Ventana
 
-### Dimensiones
-120 columnas x 28 lineas
+> Opacidad: `0.86`
+> Dimensiones: `120` x `32`
 
 ### Fuente
-[Hack Nerd Font](https://www.nerdfonts.com/font-downloads) 9
+
+> Familia: [Hack Nerd Font](https://www.nerdfonts.com/font-downloads)
 
 ### Caracteristicas del Cursor
 
-Estilo: Doble T 
-
-Parpadeo: Cada 750ms si tiene el foco
-
-Oculto mientras se escribe
+> Estilo: Doble T 
+> Parpadeo: Cada 450ms si tiene el foco
+> Oculto mientras se escribe
 
 ### Colores
+[iterm alacritty themes](https://github.com/alacritty/alacritty-theme/blob/master/themes/iterm.toml)
 
-|Funcion    | Dark    | Light   |
-|-----------|---------|---------|
-|Fondo      | #000000 | #ffffff |
-|Letra      | #dadedd | #000000 |
-|Cursor     | #ecba0f | #a1a1a1 |
-|Busqueda   | #000000 | #d6d6d6 |
-|Oscuro     | #282a30 | #d6d6d6 |
-|Rojo       | #ff2b2b | #ff0041 |
-|Verde      | #a4cf6e | #b300ff |
-|Amarillo   | #ecba0f | #00b5ff |
-|Azul       | #a9a1f1 | #b300ff |
-|Magenta    | #fd79a1 | #0047bf |
-|Cian       | #32e2e2 | #0048b1 |
-|Gris       | #34e2e2 | #d6d6d6 |
+![colors-preview](https://github.com/alacritty/alacritty-theme/blob/master/images/iterm.png)
 
 ### Acciones
 
