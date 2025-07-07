@@ -30,27 +30,25 @@ foreground = "#000000"
 background = "#222222"
 text = "CellForeground"
 
+[colors.normal]
+black   = '#2e2e2e'
+red     = '#eb4129'
+green   = '#abe047'
+yellow  = '#f6c744'
+blue    = '#47a0f3'
+magenta = '#7b5cb0'
+cyan    = '#64dbed'
+white   = '#e5e9f0'
 
 [colors.bright]
-black = "#282a30"
-blue = "#a9a1f1"
-cyan = "#34E2E2"
-green = "#a4cf6e"
-magenta = "#fd79a1"
-red = "#ff2b2b"
-white = "#34e2e2"
-yellow = "#ecba0f"
-
-
-[colors.normal]
-black = "#282a30"
-blue = "#a9a1f1"
-cyan = "#32e2e2"
-green = "#a4cf6e"
-magenta = "#fd79a1"
-red = "#ff2b2b"
-white = "#34e2e2"
-yellow = "#ecba0f"
+black   = '#565656'
+red     = '#ec5357'
+green   = '#c0e17d'
+yellow  = '#f9da6a'
+blue    = '#49a4f8'
+magenta = '#a47de9'
+cyan    = '#99faf2'
+white   = '#ffffff'
 
 [bell]
 animation = "Linear"
